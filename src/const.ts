@@ -11,4 +11,4 @@ export const DEBUG_DAI_ADDRESS = "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa";
 
 export const STATS_ENDPOINT = DEBUG
   ? "https://india-statistics-production.up.railway.app/testnet"
-  : "https://india-statistics-production.up.railway.app/";
+  : "https://magicjardeploy-production.up.railway.app/";

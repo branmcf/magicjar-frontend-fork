@@ -28,7 +28,7 @@ export function Jar({
         <div className="donation">
           or{" "}
           <a
-            href="https://twitter.com/sandeepnailwal/status/1385968552679727113"
+            href="https://give.lastprisonerproject.org/give/287161/#!/donation/checkout"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -50,6 +50,16 @@ export function Footer(): JSX.Element {
           Anish
         </a>
       </div>
+      <div className="authors">
+        Forked by{" "}
+        <a
+          href="https://twitter.com/branmcf"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Brandon
+        </a>
+      </div>
       <div className="social">
         <SocialLink
           icon={<IconTwitter />}

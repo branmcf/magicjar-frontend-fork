@@ -11,7 +11,7 @@ import { Loader } from "components/Loader";
 
 export function India(): JSX.Element {
   const TWITTER_SHARE_COPY =
-    "Let's help the fight the COVID crisis in India by temporarily staking part of our savings in @MagicJarHQ!";
+    "Let's help fight criminal injustice by temporarily staking part of our savings in @MagicJarHQ!";
 
   const { authenticate } = useActions(walletLogic);
   const { authenticated, balancesAllowances, stats, statsLoading } = useValues(
@@ -22,7 +22,7 @@ export function India(): JSX.Element {
 
   return (
     <>
-      <h1 className="text-center">Support India by saving money</h1>
+      <h1 className="text-center">Support cannabis prisoners by saving money</h1>
       <Container style={{ maxWidth: 1100 }}>
         <Row>
           <Col md={7} push={{ md: 5 }}>
@@ -66,13 +66,13 @@ export function India(): JSX.Element {
             )}
           </Col>
           <Col md={5} pull={{ md: 7 }}>
-            <h2>MagicJar for India 🇮🇳</h2>
+            <h2>MagicJar for cannabis prisoners 🌿</h2>
             <div className="mt-2x">
-              <b>India COVID-19 Crisis</b>
+              <b>United States incarceration crisis</b>
               <p>
-                India is going through a COVID crisis like we have’t seen in the
-                entire pandemic. Officially, 350k people are contracting the
-                virus, and 3k are dying every day. The reality is even grimmer.
+                40,000 people have been sentenced to sit in a cell for years, decades, 
+                or even for life, convicted of an activity that is no longer a crime.
+                Meanwhile, thousands of others are free and making money off of the legal cannabis industry.
               </p>
             </div>
             <div className="mt-2x">
@@ -81,11 +81,11 @@ export function India(): JSX.Element {
                 MagicJar is a pool of money that generates interest every day,
                 and donates it to a common cause. In this case, the{" "}
                 <a
-                  href="https://twitter.com/sandeepnailwal/status/1385968552679727113"
+                  href="https://twitter.com/lastprisonerprj/status/1365729446658011146"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  India Crypto COVID Relief Fund
+                  Last Prisoner Project
                 </a>
                 . Anyone is free deposit or withdraw funds at any time.
                 Basically, this is a new way to financially support the causes

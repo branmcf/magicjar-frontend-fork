@@ -6,11 +6,11 @@ export function Router(): JSX.Element {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/india">
+        <Route exact path="/cannabis">
           <India />
         </Route>
         <Route path="*">
-          <Redirect to="/india" />
+          <Redirect to="/cannabis" />
         </Route>
       </Switch>
     </BrowserRouter>
